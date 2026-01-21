@@ -82,7 +82,7 @@ async def main():
     n = 500
 
     print("=== fetch_sync ===")
-    await benchmark(fetch_many, 40)
+    await benchmark(fetch_many, 100)
     print()
 
     print("=== fetch_sync_mp === ")
